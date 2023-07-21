@@ -1,6 +1,6 @@
 # Task Reminder application with TypeScript
 
-- [] Initialize proyect with Vite
+- [x] Initialize proyect with Vite
 - [] Add linter for TypeScript + React
 - [] Add styles
 - [] List all tasks
