@@ -2,7 +2,7 @@ import { AiOutlineInstagram, AiOutlineGithub, AiOutlineTwitter, AiFillLinkedin }
 
 const Sidebar = () => {
   return (
-    <div className='hidden md:flex flex-col justify-start items-start '>
+    <div className='hidden 2xl:flex flex-col justify-start items-start '>
         <div className="v-line" />
         {/* Social Icons */}
         <div className="flex fixed top-[75%] ml-2 z-10 bg-[#1a232e]">

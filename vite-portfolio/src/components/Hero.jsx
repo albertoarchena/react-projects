@@ -1,10 +1,12 @@
 
 const Hero = () => {
   return (
-    <section className="max-w-[1240px] mx-auto my-[15rem] py-12">
+    // max-w-[1240px] mx-10 sm:mx-auto my-[15rem] py-12 px-16 sm:px-0
+    // sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6
+    <section className="sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6 max-w-[1240px] mx-auto sm:my-60 my-20">
       <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-7xl">Alberto Moreno.</h1>
-      <h2 className="mt-3 text-xl font-bold tracking-tight text-slate-400 sm:text-7xl ">Software Engineer.</h2>
-      <p className="mt-10 max-w-sm leading-normal font-medium">
+      <h2 className="mt-1 sm:mt-3 text-3xl font-bold tracking-tight text-slate-400 sm:text-7xl ">Software Engineer.</h2>
+      <p className="sm:mt-10 mt-6 max-w-sm leading-normal font-medium">
         I&apos;m a software engineer specialized on full-stack development. Currently, I&apos;m working as a QA Engineer, developing automated tests at <a className="text-[#3bba9c]" href="https://www.capgemini.com/">Capgemini</a>.
       </p>
       <div className="flex gap-4 mt-8">
