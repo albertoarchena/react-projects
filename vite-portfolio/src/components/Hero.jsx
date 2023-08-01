@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     // max-w-[1240px] mx-10 sm:mx-auto my-[15rem] py-12 px-16 sm:px-0
     // sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6
-    <section className="sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6 max-w-[1240px] mx-auto sm:my-60 my-20">
+    <section className="sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6 max-w-[1240px] mx-auto sm:my-48 my-20">
       <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-7xl">Alberto Moreno.</h1>
       <h2 className="mt-1 sm:mt-3 text-3xl font-bold tracking-tight text-slate-400 sm:text-7xl ">Software Engineer.</h2>
       <p className="sm:mt-10 mt-6 max-w-sm leading-normal font-medium">
