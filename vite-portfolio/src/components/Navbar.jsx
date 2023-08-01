@@ -43,18 +43,18 @@ const Navbar = () => {
         <div className="hidden md:flex justify-between gap-4 items-center ">
           <ul className="flex">
             <li className="p-4">
-              <a className="hover:text-white focus:text-white" href="/Projects">Projects</a></li>
+              <a className="hover:text-white focus:text-white" href="#About">About</a></li>
             <li className="p-4">
-              <a className="hover:text-white focus:text-white" href="/Experiece">Experience</a>
+              <a className="hover:text-white focus:text-white" href="#Skills">Skills</a>
             </li>
             <li className="p-4">
-              <a className="hover:text-white focus:text-white" href="/Skills">Skills</a>
+              <a className="hover:text-white focus:text-white" href="#Projects">Projects</a>
             </li>
             <li className="p-4">
-              <a className="hover:text-white focus:text-white" href="/About">About</a>
+              <a className="hover:text-white focus:text-white" href="#Experience">Experience</a>
             </li>
             <li className="p-4">
-              <a className="hover:text-white focus:text-white" href="/Contact">Contact</a>
+              <a className="hover:text-white focus:text-white" href="#Contact">Contact</a>
             </li>
           </ul>
           <div>
@@ -69,18 +69,18 @@ const Navbar = () => {
         {/* menu responsive */}
         <ul className={!navResponsive ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#1a232e] flex flex-col justify-center items-center"}>
           <li className="py-8 text-4xl">
-            <a className="focus:text-white" href="/Projects">Projects</a></li>
+            <a className="focus:text-white" href="#About">About</a></li>
           <li className="py-8 text-4xl">
-            <a className="focus:text-white" href="/Experiece">Experience</a>
+            <a className="focus:text-white" href="#Skills">Skills</a>
           </li>
           <li className="py-8 text-4xl">
-            <a className="focus:text-white" href="/Skills">Skills</a>
+            <a className="focus:text-white" href="#Projects">Projects</a>
           </li>
           <li className="py-8 text-4xl">
-            <a className="focus:text-white" href="/About">About</a>
+            <a className="focus:text-white" href="#Experience">Experience</a>
           </li>
           <li className="py-8 text-4xl">
-            <a className="focus:text-white" href="/Contact">Contact</a>
+            <a className="focus:text-white" href="#Contact">Contact</a>
           </li>
         </ul>
       </nav>
