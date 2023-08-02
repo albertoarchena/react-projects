@@ -29,7 +29,7 @@ const Navbar = () => {
   //bg-[#1a232e]
 
   return (
-    <div className={`${isScrolled ? "sticky top-0 bg-transparent backdrop-filter backdrop-blur-md shadow-lg" : "bg-transparent"} duration-500 transition-all z-50`}>
+    <div className={`${isScrolled ? "sticky top-0 bg-transparent backdrop-filter backdrop-blur-md shadow-md" : "bg-transparent"} duration-500 transition-all z-50`}>
       <nav className={`flex font-medium justify-between items-center max-w-[1240px] lg:mx-auto mx-4  ${ isScrolled ? "h-16" : "h-24"} transition-all duration-500`}>
         <div className="">
           <a href="#">
