@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
+import About from './components/About'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <Sidebar />
         <Hero />
+        <About />
         <div className='flex justify-center flex-col gap-4 max-w-[1240px] mx-auto'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusantium aspernatur voluptatem tenetur maxime adipisci eum repellat quaerat dolores expedita incidunt, aut sed aliquam magni facere consequuntur fugit facilis quos eaque error dolore nisi laboriosam. Repellat ex, ab magni sunt aspernatur beatae harum. Magnam, quis excepturi. Itaque, beatae commodi. Cumque voluptas quam vitae necessitatibus ut commodi dolore reiciendis. Corrupti beatae eaque blanditiis nihil ipsum quibusdam sit! Placeat magni repellendus sequi assumenda animi, enim nam voluptatibus, voluptas dignissimos deserunt necessitatibus dolor aspernatur repellat fuga quidem quaerat labore architecto incidunt nulla quibusdam? Iure tempore tenetur maxime porro fuga. At nemo explicabo adipisci?</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt accusantium aspernatur voluptatem tenetur maxime adipisci eum repellat quaerat dolores expedita incidunt, aut sed aliquam magni facere consequuntur fugit facilis quos eaque error dolore nisi laboriosam. Repellat ex, ab magni sunt aspernatur beatae harum. Magnam, quis excepturi. Itaque, beatae commodi. Cumque voluptas quam vitae necessitatibus ut commodi dolore reiciendis. Corrupti beatae eaque blanditiis nihil ipsum quibusdam sit! Placeat magni repellendus sequi assumenda animi, enim nam voluptatibus, voluptas dignissimos deserunt necessitatibus dolor aspernatur repellat fuga quidem quaerat labore architecto incidunt nulla quibusdam? Iure tempore tenetur maxime porro fuga. At nemo explicabo adipisci?</p>

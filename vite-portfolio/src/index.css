@@ -33,6 +33,11 @@ div.v-line-2{
   z-index: 0;
 }
 
+div.line-title{
+  border-bottom: 2px solid #3bba9c;
+  position: fixed;
+}
+
 /* scroll bar */
 ::-webkit-scrollbar {
   width: 6px;
